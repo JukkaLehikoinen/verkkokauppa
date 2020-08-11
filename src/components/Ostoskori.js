@@ -21,12 +21,13 @@ function ShoppingList () {
 }
 
     const JatkaOstoksia = (tuotteet) => {
+        lisaaOstoskori(0)
         lisaaMaara(tuotteet.length)
         setTila(0);
     }
 
     const NaytaOstoskori = () => {
-        if (ostoskori!==0){
+        if (ostoskori!==0) {
         setA(a.concat(ostoskori))
         }
        setTila(1);
