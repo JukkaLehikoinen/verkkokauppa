@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/kiinteistohuolto-front/static/css/main.a83d8322.chunk.css",
-    "main.js": "/kiinteistohuolto-front/static/js/main.aeeddcb9.chunk.js",
-    "main.js.map": "/kiinteistohuolto-front/static/js/main.aeeddcb9.chunk.js.map",
-    "runtime-main.js": "/kiinteistohuolto-front/static/js/runtime-main.16cb172c.js",
-    "runtime-main.js.map": "/kiinteistohuolto-front/static/js/runtime-main.16cb172c.js.map",
-    "static/js/2.208e5ff8.chunk.js": "/kiinteistohuolto-front/static/js/2.208e5ff8.chunk.js",
-    "static/js/2.208e5ff8.chunk.js.map": "/kiinteistohuolto-front/static/js/2.208e5ff8.chunk.js.map",
-    "index.html": "/kiinteistohuolto-front/index.html",
-    "precache-manifest.2a9292db3f0eb8b625c233c5e28af8a8.js": "/kiinteistohuolto-front/precache-manifest.2a9292db3f0eb8b625c233c5e28af8a8.js",
-    "service-worker.js": "/kiinteistohuolto-front/service-worker.js",
-    "static/css/main.a83d8322.chunk.css.map": "/kiinteistohuolto-front/static/css/main.a83d8322.chunk.css.map",
-    "static/js/2.208e5ff8.chunk.js.LICENSE.txt": "/kiinteistohuolto-front/static/js/2.208e5ff8.chunk.js.LICENSE.txt"
+    "main.css": "/verkkokauppa/static/css/main.a83d8322.chunk.css",
+    "main.js": "/verkkokauppa/static/js/main.bab52a59.chunk.js",
+    "main.js.map": "/verkkokauppa/static/js/main.bab52a59.chunk.js.map",
+    "runtime-main.js": "/verkkokauppa/static/js/runtime-main.b47acc04.js",
+    "runtime-main.js.map": "/verkkokauppa/static/js/runtime-main.b47acc04.js.map",
+    "static/js/2.208e5ff8.chunk.js": "/verkkokauppa/static/js/2.208e5ff8.chunk.js",
+    "static/js/2.208e5ff8.chunk.js.map": "/verkkokauppa/static/js/2.208e5ff8.chunk.js.map",
+    "index.html": "/verkkokauppa/index.html",
+    "precache-manifest.11376bb525ebf418ad6197f80cac1c1b.js": "/verkkokauppa/precache-manifest.11376bb525ebf418ad6197f80cac1c1b.js",
+    "service-worker.js": "/verkkokauppa/service-worker.js",
+    "static/css/main.a83d8322.chunk.css.map": "/verkkokauppa/static/css/main.a83d8322.chunk.css.map",
+    "static/js/2.208e5ff8.chunk.js.LICENSE.txt": "/verkkokauppa/static/js/2.208e5ff8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.16cb172c.js",
+    "static/js/runtime-main.b47acc04.js",
     "static/js/2.208e5ff8.chunk.js",
     "static/css/main.a83d8322.chunk.css",
-    "static/js/main.aeeddcb9.chunk.js"
+    "static/js/main.bab52a59.chunk.js"
   ]
 }
