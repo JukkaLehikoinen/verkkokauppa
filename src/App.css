@@ -12,10 +12,7 @@
 }
 
 .Ostoskori {
-    border-style: double;
-    position: absolute;
-    top: 20px;
-    right: 20px;
+  
     background-color: rgb(72, 55, 219);
     color: white;
     padding-left: 20px;

@@ -40,7 +40,7 @@ const tuotteet = items.map((items)=>{
 
   return (
     <div>
-    <h2>Hoikan maansiirto verkkokauppa</h2>
+    <h5>Hoikan maansiirto verkkokauppa</h5>
     <table className="Taulukko">
       <th>Tuote</th>
       <th>Hinta</th>
