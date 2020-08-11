@@ -1,26 +1,33 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import Ostoskori from './components/Ostoskori';
+import Button from '@material-ui/core/Button';
 
 function App() {
+
+  const [kauppaan, setKauppaan] = useState(0)
+ 
+const Kauppaan = () => {
+  setKauppaan(1);
+}
+
+
+if (kauppaan===0){
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="Kauppaan">
+      Astu sisään Hoikan maansiirto Oyn verkkokauppaan. <br></br>
+    <Button variant="outlined" color="primary" onClick={Kauppaan}>Kauppaan</Button>
     </div>
   );
+} else {
+  return(
+    <div className="App">
+      <Ostoskori />
+      
+    </div>
+  )
+}
+
 }
 
 export default App;
