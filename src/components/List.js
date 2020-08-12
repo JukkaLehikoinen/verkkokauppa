@@ -30,8 +30,8 @@ const tuotteet = items.map((items)=>{
       <tr key = {items.id} >
         <td><a target="_blank" href={items.url}><img src={items.url} width={300} height={200}/></a></td>
         <td className="lisaa1" onClick={()=>Ostoskoriin(items.id)}>{items.tuote}</td>
-        <td className="kuvaus" onClick={()=>Ostoskoriin(items.id)}>{items.kuvaus}</td>
-        <td className="lisaa1" onClick={()=>Ostoskoriin(items.id)}>{items.hinta}€</td>
+        <td className="kuvaus" onClick={()=>Ostoskoriin(items.id)} width={300}>{items.kuvaus}</td>
+        <td className="lisaa1" onClick={()=>Ostoskoriin(items.id)}>{items.hinta.toLocaleString()}€</td>
         <td> <AddCircleIcon className="lisaa2" onClick={()=>Ostoskoriin(items.id)}/></td>
       </tr>
     

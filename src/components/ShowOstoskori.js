@@ -23,7 +23,7 @@ function ShowShoppingList ({ostoskori, JatkaOstoksia, TyhjennaKori}) {
               <td><a target="_blank" href={items.url}><img src={items.url} width={300} height={200}/></a></td>
               <td className="ShowOstoskori">{items.tuote}</td>
               <td className="ShowOstoskori"> </td>
-              <td className="ShowOstoskori">{items.hinta}</td>
+              <td className="ShowOstoskori">{items.hinta.toLocaleString()}</td>
               <td><RemoveCircleIcon fontSize="small" name={i} onClick={()=>Poisto(i)}/></td>
             </tr>
         )
@@ -56,7 +56,8 @@ function ShowShoppingList ({ostoskori, JatkaOstoksia, TyhjennaKori}) {
             
              matikka=matikka + ostoskori[i].hinta;  
             }
-        lisaaSumma(matikka)
+           
+        lisaaSumma(matikka.toLocaleString())
     }
 
     return (
