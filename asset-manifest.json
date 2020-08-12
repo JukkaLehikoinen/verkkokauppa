@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/verkkokauppa/static/css/main.69d025de.chunk.css",
-    "main.js": "/verkkokauppa/static/js/main.bc937319.chunk.js",
-    "main.js.map": "/verkkokauppa/static/js/main.bc937319.chunk.js.map",
+    "main.css": "/verkkokauppa/static/css/main.9be2efa1.chunk.css",
+    "main.js": "/verkkokauppa/static/js/main.e3fe88fe.chunk.js",
+    "main.js.map": "/verkkokauppa/static/js/main.e3fe88fe.chunk.js.map",
     "runtime-main.js": "/verkkokauppa/static/js/runtime-main.b47acc04.js",
     "runtime-main.js.map": "/verkkokauppa/static/js/runtime-main.b47acc04.js.map",
-    "static/js/2.208e5ff8.chunk.js": "/verkkokauppa/static/js/2.208e5ff8.chunk.js",
-    "static/js/2.208e5ff8.chunk.js.map": "/verkkokauppa/static/js/2.208e5ff8.chunk.js.map",
+    "static/js/2.3794533f.chunk.js": "/verkkokauppa/static/js/2.3794533f.chunk.js",
+    "static/js/2.3794533f.chunk.js.map": "/verkkokauppa/static/js/2.3794533f.chunk.js.map",
     "index.html": "/verkkokauppa/index.html",
-    "precache-manifest.2aa05711e801ac1b27309443b9f78517.js": "/verkkokauppa/precache-manifest.2aa05711e801ac1b27309443b9f78517.js",
+    "precache-manifest.c35c08afe597a12a63a9de76d26639a7.js": "/verkkokauppa/precache-manifest.c35c08afe597a12a63a9de76d26639a7.js",
     "service-worker.js": "/verkkokauppa/service-worker.js",
-    "static/css/main.69d025de.chunk.css.map": "/verkkokauppa/static/css/main.69d025de.chunk.css.map",
-    "static/js/2.208e5ff8.chunk.js.LICENSE.txt": "/verkkokauppa/static/js/2.208e5ff8.chunk.js.LICENSE.txt"
+    "static/css/main.9be2efa1.chunk.css.map": "/verkkokauppa/static/css/main.9be2efa1.chunk.css.map",
+    "static/js/2.3794533f.chunk.js.LICENSE.txt": "/verkkokauppa/static/js/2.3794533f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b47acc04.js",
-    "static/js/2.208e5ff8.chunk.js",
-    "static/css/main.69d025de.chunk.css",
-    "static/js/main.bc937319.chunk.js"
+    "static/js/2.3794533f.chunk.js",
+    "static/css/main.9be2efa1.chunk.css",
+    "static/js/main.e3fe88fe.chunk.js"
   ]
 }
