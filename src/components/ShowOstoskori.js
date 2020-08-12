@@ -20,9 +20,10 @@ function ShowShoppingList ({ostoskori, JatkaOstoksia, TyhjennaKori}) {
         return (
           
             <tr key = {i} >
-              <td><a target="_blank" href={items.url}><img src={items.url} width={70} height={50}/></a></td>
-              <td>{items.tuote}</td>
-              <td>{items.hinta}</td>
+              <td><a target="_blank" href={items.url}><img src={items.url} width={300} height={200}/></a></td>
+              <td className="ShowOstoskori">{items.tuote}</td>
+              <td className="ShowOstoskori"> </td>
+              <td className="ShowOstoskori">{items.hinta}</td>
               <td><RemoveCircleIcon fontSize="small" name={i} onClick={()=>Poisto(i)}/></td>
             </tr>
         )
@@ -65,7 +66,7 @@ function ShowShoppingList ({ostoskori, JatkaOstoksia, TyhjennaKori}) {
                 {tuotteet}
             </table>
             <br></br>
-            Tilauksen kokonaisarvo: {summa} €<br></br>
+            <div className="ShowOstoskori">Tilauksen kokonaisarvo: {summa} €</div><br></br>
             <Button  variant="outlined" color="primary" onClick={Jatka}>Jatka ostoksia</Button><br></br><br></br>
             <Button  variant="outlined" color="primary" onClick={Tyhjenna}>Tyhjennä ostoskori</Button>
         </div>

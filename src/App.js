@@ -15,7 +15,7 @@ const Kauppaan = () => {
 if (kauppaan===0){
   return (
     <div className="Kauppaan">
-      Astu sisään Hoikan maansiirto Oyn verkkokauppaan. <br></br>
+      Astu sisään Hoikan Maansiirto Oyn verkkokauppaan. <br></br>
     <Button variant="outlined" color="primary" onClick={Kauppaan}>Kauppaan</Button>
     </div>
   );
