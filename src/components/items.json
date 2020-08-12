@@ -2,22 +2,77 @@
     [
         {
             "id":0,
-            "text": "Raktori 1",
-            "value": 15000,
-            "maara":0
+            "tuote": "New Holland T7",
+            "kuvaus": "T7 sarjan traktoreilla saa työt tehtyä helposti ja vaivatta. \n Ilmastointi sekä äänenvaimentimet antavat mukavan tunnelman hyttiin",
+            "hinta": 85000,
+            "url": "https://images.tradus.com/v1/0aa5cff0-9327-4636-b468-39d756109d03.jpeg",
+            "kategoria": "Traktori"
         },
         {
             "id":1,
-            "text": "Raktori 2",
-            "value": 17500,
-            "maara":0
+            "tuote": "Valtra N141",
+            "kuvaus": "Väsymätön työkaveri, taattua Valtran laatua.",
+            "hinta": 77000,
+            "url": "https://thumbs.tractorfan.nl/cover/v/valtra/719468-n-141-valtra.jpg",
+            "kategoria": "Traktori"
         },
         {
             "id":2,
-            "text": "Raktori 3",
-            "value": 20000,
-            "maara":0
+            "tuote": "John Deere 6210",
+            "kuvaus": "Tehokas mylly, kauriin kepeydellä. Tällä mörssärillä huvittaa tehdä jo ylitöitäkin",
+            "hinta": 101000,
+            "url": "https://images.tradus.com/v1/007440b4-5080-460e-a6db-f6cd51bd551b.jpeg",
+            "kategoria": "Traktori"
+        },
+        {
+            "id":3,
+            "tuote": "Catepillar 325FLCR",
+            "kuvaus": "Catepillarin 325FLCR kaivinkoneella kauhotaan tienposket sellaisella vauhdilla että samoihin nopeuksiin on päästy vain kauhuelokuvissa.",
+            "hinta": 250000,
+            "url": "https://www.zeppelin-rental.de/fileadmin/products/BAHY-CAT325FLCR.1.bild.jpg",
+            "kategoria": "Kaivuri"
+        },
+        {
+            "id":4,
+            "tuote": "Komatsu-PC210LC-8",
+            "kuvaus": "Komatsun ergonomia takaa sairaslomattoman urakan.",
+            "hinta": 210700,
+            "url": "https://www.bastrucks.com/photos/1280/Used-Construction-equipment-Komatsu-PC210LC-8-Track-2020_161652_1.jpg",
+            "kategoria": "Kaivuri"
+        },
+        {
+            "id":5,
+            "tuote": "Hitachi ZX 140 W-5",
+            "kuvaus": "Pyörillä toimiva Aasian ihme, työmaa siirtymiset onnistuu tällä ihan itsestään.",
+            "hinta": 147000,
+            "url": "https://st.mascus.com/image/product/large/ac9d7688/hitachi-zx-140-w-3,5c14cd97.jpg",
+            "kategoria": "Kaivuri"
+        },
+        {
+            "id":6,
+            "tuote": "Volvo FH16",
+            "kuvaus": "Ruotsalaista kuorma-auto osaamista parhaimmillaan, ajaessa rekkamiehen lihas kasvaa ihan itsestään.",
+            "hinta": 180000,
+            "url": "https://www.volvotrucks.fi/content/dam/volvo/volvo-trucks/masters/press-releases/2020/feb/pr-2952-fh16/1860x1050-08A9524-FH16-with-machine-trailer.jpg",
+            "kategoria": "Rekka"
+        },
+        {
+            "id":7,
+            "tuote": "Scania P420",
+            "kuvaus": "Sisätilat ovat hienosti suunniteltu, toteutuksessa näkyy tämän päivän tehokkuus ja yli sadan vuoden kulttuuri.",
+            "hinta": 137800,
+            "url": "https://autovouhotus.fi/wp-content/uploads/2018/02/Scania_P420_vaijerilaite_manuaali_2006_001-1050x700.jpg",
+            "kategoria": "Rekka"
+        },
+        {
+            "id":8,
+            "tuote": "Sisu Polar Carrier",
+            "kuvaus": "Se on niin että Sisulla siitä selviää. Suomalaisten suunnittelema ja tekemä aparaatti.",
+            "hinta": 300000,
+            "url": "https://cdn.nettikone.com/live/2020/04/24/70e2d99a4695d621-large.jpg",
+            "kategoria": "Rekka"
         }
+        
     ]
 
     

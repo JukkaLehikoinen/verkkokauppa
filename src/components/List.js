@@ -12,7 +12,7 @@ function List({LisaaKoriin}) {
   const Ostoskoriin = (id) => {
 
     
-    product.push({id:items[id].id,text:items[id].text,value:items[id].value})
+    product.push({id:items[id].id,tuote:items[id].tuote,hinta:items[id].hinta,url:items[id].url})
     LisaaKoriin(product);
     
 
@@ -28,9 +28,11 @@ const tuotteet = items.map((items)=>{
   return (
     
       <tr key = {items.id} >
-        <td className="lisaa1" onClick={()=>Ostoskoriin(items.id)}>{items.text}</td>
-        <td className="lisaa1" onClick={()=>Ostoskoriin(items.id)}>{items.value}</td>
-        <td className="lisaa2" onClick={()=>Ostoskoriin(items.id)}> ostoskoriin</td>
+        <td><a target="_blank" href={items.url}><img src={items.url} width={300} height={200}/></a></td>
+        <td className="lisaa1" onClick={()=>Ostoskoriin(items.id)}>{items.tuote}</td>
+        <td className="kuvaus" onClick={()=>Ostoskoriin(items.id)}>{items.kuvaus}</td>
+        <td className="lisaa1" onClick={()=>Ostoskoriin(items.id)}>{items.hinta}€</td>
+        <td> <AddCircleIcon className="lisaa2" onClick={()=>Ostoskoriin(items.id)}/></td>
       </tr>
     
   )
@@ -42,7 +44,9 @@ const tuotteet = items.map((items)=>{
     <div>
     <h5>Hoikan maansiirto verkkokauppa</h5>
     <table className="Taulukko">
+      <th></th>
       <th>Tuote</th>
+      <th>Kuvaus</th>
       <th>Hinta</th>
       {tuotteet}
     </table>

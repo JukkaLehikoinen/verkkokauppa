@@ -20,8 +20,9 @@ function ShowShoppingList ({ostoskori, JatkaOstoksia, TyhjennaKori}) {
         return (
           
             <tr key = {i} >
-              <td>{items.text}</td>
-              <td>{items.value}</td>
+              <td><a target="_blank" href={items.url}><img src={items.url} width={70} height={50}/></a></td>
+              <td>{items.tuote}</td>
+              <td>{items.hinta}</td>
               <td><RemoveCircleIcon fontSize="small" name={i} onClick={()=>Poisto(i)}/></td>
             </tr>
         )
@@ -52,7 +53,7 @@ function ShowShoppingList ({ostoskori, JatkaOstoksia, TyhjennaKori}) {
         let matikka=0;
         for (let i = 0; i < ostoskori.length; i++) {
             
-             matikka=matikka + ostoskori[i].value;  
+             matikka=matikka + ostoskori[i].hinta;  
             }
         lisaaSumma(matikka)
     }
