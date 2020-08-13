@@ -28,7 +28,7 @@ const tuotteet = items.map((items)=>{
   return (
     
       <tr key = {items.id} >
-        <td><a target="_blank" href={items.url}><img src={items.url} width={300} height={200}/></a></td>
+        <td><a target="_blank" href={items.url}><img className="Kuva" src={items.url} /></a></td>
         <td className="lisaa1" onClick={()=>Ostoskoriin(items.id)}>{items.tuote}</td>
         <td className="kuvaus" onClick={()=>Ostoskoriin(items.id)} width={300}>{items.kuvaus}</td>
         <td className="lisaa1" onClick={()=>Ostoskoriin(items.id)}>{items.hinta.toLocaleString()}€</td>

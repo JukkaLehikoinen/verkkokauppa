@@ -53,12 +53,26 @@
   font-size: 30px;
 }
 
+.Kuva {
+  max-width: 300px;
+  max-height: 200px;
+  
+}
+
+
+
 @media only screen and (max-width:420px){
     
 body{
       height: 80%;
       width: 80%;
 }
+.Kuva {
+  max-width: 100px;
+  max-height: 100px;
+  
+}
+
 .Ostoskori {
 
   position: fixed;
@@ -82,4 +96,6 @@ body{
   padding: 20px;
   font-size: 20px;
 }
+
+
 }
