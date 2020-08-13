@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "95bbc4364d556da580334ec32e62eb5a",
+    "revision": "074c2ab43d5eeed138388bd7708d1014",
     "url": "/verkkokauppa/index.html"
   },
   {
-    "revision": "34c6aa0ba8ae8cc7c650",
-    "url": "/verkkokauppa/static/css/main.8fc4da1d.chunk.css"
+    "revision": "7f9364c5c77c747ced11",
+    "url": "/verkkokauppa/static/css/main.e122d0ca.chunk.css"
   },
   {
     "revision": "48f92a9803aa7769b11b",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/verkkokauppa/static/js/2.78192f6d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "34c6aa0ba8ae8cc7c650",
+    "revision": "7f9364c5c77c747ced11",
     "url": "/verkkokauppa/static/js/main.db8b918b.chunk.js"
   },
   {
