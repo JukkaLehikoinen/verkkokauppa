@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react';
-import items from './items.json';
+import React, { useState } from 'react';
 import List from './List';
 import ShowOstoskori from './ShowOstoskori';
+
 
 
 
@@ -11,6 +11,7 @@ function ShoppingList () {
     const [maara, lisaaMaara] = useState(0)
     const [tila, setTila] = useState(0);
     const [a, setA] = useState([]);
+    
     
 
     const LisaaKoriin = (product) =>{

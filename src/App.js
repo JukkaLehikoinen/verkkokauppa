@@ -6,6 +6,7 @@ import Button from '@material-ui/core/Button';
 function App() {
 
   const [kauppaan, setKauppaan] = useState(0)
+  
  
 const Kauppaan = () => {
   setKauppaan(1);

@@ -1,55 +1,83 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import items from './items.json';
-
 import AddCircleIcon from '@material-ui/icons/AddCircle';
 
-function List({LisaaKoriin}) {
+
+function List({ LisaaKoriin }) {
 
   const [product, setProduct] = useState([]);
-  
-
+  const [nayta, setNayta] = useState('Kaikki');
+  let lista = [];
 
   const Ostoskoriin = (id) => {
-
-    
-    product.push({id:items[id].id,tuote:items[id].tuote,hinta:items[id].hinta,url:items[id].url})
+    console.log(id)
+    product.push({ id: items[id].id, tuote: items[id].tuote, hinta: items[id].hinta, url: items[id].url })
     LisaaKoriin(product);
-    
-
-
-    //setService({ ...service, [event.target.name]: event.target.value });
-    //setProduct([items[id].id,items[id].text,items[id].value])
-    //console.log(product)
-    
   }
 
-const tuotteet = items.map((items)=>{
+  if (nayta === 'Kaikki') {
+    lista = items;
+  }
 
-  return (
-    
-      <tr key = {items.id} >
-        <td><a target="_blank" href={items.url}><img className="Kuva" src={items.url} /></a></td>
-        <td className="lisaa1" onClick={()=>Ostoskoriin(items.id)}>{items.tuote}</td>
-        <td className="kuvaus" onClick={()=>Ostoskoriin(items.id)} width={300}>{items.kuvaus}</td>
-        <td className="lisaa1" onClick={()=>Ostoskoriin(items.id)}>{items.hinta.toLocaleString()}€</td>
-        <td> <AddCircleIcon className="lisaa2" onClick={()=>Ostoskoriin(items.id)}/></td>
+  if (nayta !== 'Kaikki') {
+    for (let i = 0; i < items.length; i++) {
+      if (items[i].kategoria === nayta) {
+        lista.push(items[i])
+      }
+    } 
+  }
+
+
+  const tuotteet = lista.map((lista) => {
+
+    return (
+
+      <tr key={lista.id} >
+        <td><a target="_blank" href={lista.url}><img className="Kuva" src={lista.url} /></a></td>
+        <td className="lisaa1" onClick={() => Ostoskoriin(lista.id)}>{lista.tuote}</td>
+        <td className="kuvaus" onClick={() => Ostoskoriin(lista.id)} width={300}>{lista.kuvaus}</td>
+        <td className="lisaa1" onClick={() => Ostoskoriin(lista.id)}>{lista.hinta.toLocaleString()}€</td>
+        <td> <AddCircleIcon className="lisaa2" onClick={() => Ostoskoriin(lista.id)} /></td>
       </tr>
-    
-  )
-}
-)
 
+    )
+  }
+  )
+
+  const Traktori = () => {
+    setNayta('Traktori')
+  }
+
+  const Kaivuri = () => {
+    setNayta('Kaivuri')
+  }
+
+  const Rekka = () => {
+    setNayta('Rekka')
+  }
+
+  const Kaikki = () => {
+    setNayta('Kaikki')
+  }
 
   return (
     <div>
-    <h5>Hoikan maansiirto verkkokauppa</h5>
-    <table className="Taulukko">
-      <th></th>
-      <th>Tuote</th>
-      <th>Kuvaus</th>
-      <th>Hinta</th>
-      {tuotteet}
-    </table>
+      <h1> </h1>
+      <table className="Taulukko2">
+        <th onClick={Kaikki}>Kaikki laitteet</th>
+        <th onClick={Traktori}>Traktorit</th>
+        <th onClick={Kaivuri}>Maansiirtokaivurit</th>
+        <th onClick={Rekka}>Rekat</th>
+      </table>
+      <table className="Taulukko">
+        <th></th>
+        <th>Tuote</th>
+        <th>Kuvaus</th>
+        <th>Hinta</th>
+        {tuotteet}
+      </table>
+
+      <h1> </h1>
     </div>
   );
 }

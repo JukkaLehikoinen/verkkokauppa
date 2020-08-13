@@ -26,6 +26,20 @@
     font-size: 20px;
   }
 
+  .Taulukko2 {
+
+    cursor: pointer;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    border: 1px solid blue;
+    background-color: rgb(72, 55, 219);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+  }
+
 .Ostoskori2 {
   
   background-color: rgb(72, 55, 219);
