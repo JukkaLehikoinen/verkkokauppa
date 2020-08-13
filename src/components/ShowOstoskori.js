@@ -20,7 +20,7 @@ function ShowShoppingList ({ostoskori, JatkaOstoksia, TyhjennaKori}) {
         return (
           
             <tr key = {i} >
-              <td><a target="_blank" href={items.url}><img src={items.url} width={300} height={200}/></a></td>
+              <td><a target="_blank" href={items.url}><img className="Kuva" src={items.url}/></a></td>
               <td className="ShowOstoskori">{items.tuote}</td>
               <td className="ShowOstoskori"> </td>
               <td className="ShowOstoskori">{items.hinta.toLocaleString()}</td>
