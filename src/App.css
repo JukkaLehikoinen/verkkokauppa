@@ -59,5 +59,27 @@ body{
       height: 80%;
       width: 80%;
 }
+.Ostoskori {
 
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  border: 1px solid blue;
+  background-color: rgb(72, 55, 219);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 10px;
+}
+
+.lisaa1 {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+.ShowOstoskori {
+  padding: 20px;
+  font-size: 20px;
+}
 }
