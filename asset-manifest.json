@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/verkkokauppa/static/css/main.2d66a50e.chunk.css",
-    "main.js": "/verkkokauppa/static/js/main.f6ac4bac.chunk.js",
-    "main.js.map": "/verkkokauppa/static/js/main.f6ac4bac.chunk.js.map",
+    "main.js": "/verkkokauppa/static/js/main.9e7005c5.chunk.js",
+    "main.js.map": "/verkkokauppa/static/js/main.9e7005c5.chunk.js.map",
     "runtime-main.js": "/verkkokauppa/static/js/runtime-main.b47acc04.js",
     "runtime-main.js.map": "/verkkokauppa/static/js/runtime-main.b47acc04.js.map",
-    "static/js/2.395bdc76.chunk.js": "/verkkokauppa/static/js/2.395bdc76.chunk.js",
-    "static/js/2.395bdc76.chunk.js.map": "/verkkokauppa/static/js/2.395bdc76.chunk.js.map",
+    "static/js/2.990caa24.chunk.js": "/verkkokauppa/static/js/2.990caa24.chunk.js",
+    "static/js/2.990caa24.chunk.js.map": "/verkkokauppa/static/js/2.990caa24.chunk.js.map",
     "index.html": "/verkkokauppa/index.html",
-    "precache-manifest.139b97954692ff3c5f42e727aae80213.js": "/verkkokauppa/precache-manifest.139b97954692ff3c5f42e727aae80213.js",
+    "precache-manifest.09bb21f1c823a6e65eeee17b518db95a.js": "/verkkokauppa/precache-manifest.09bb21f1c823a6e65eeee17b518db95a.js",
     "service-worker.js": "/verkkokauppa/service-worker.js",
     "static/css/main.2d66a50e.chunk.css.map": "/verkkokauppa/static/css/main.2d66a50e.chunk.css.map",
-    "static/js/2.395bdc76.chunk.js.LICENSE.txt": "/verkkokauppa/static/js/2.395bdc76.chunk.js.LICENSE.txt"
+    "static/js/2.990caa24.chunk.js.LICENSE.txt": "/verkkokauppa/static/js/2.990caa24.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b47acc04.js",
-    "static/js/2.395bdc76.chunk.js",
+    "static/js/2.990caa24.chunk.js",
     "static/css/main.2d66a50e.chunk.css",
-    "static/js/main.f6ac4bac.chunk.js"
+    "static/js/main.9e7005c5.chunk.js"
   ]
 }
