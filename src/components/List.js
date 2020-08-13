@@ -10,7 +10,6 @@ function List({ LisaaKoriin }) {
   let lista = [];
 
   const Ostoskoriin = (id) => {
-    console.log(id)
     product.push({ id: items[id].id, tuote: items[id].tuote, hinta: items[id].hinta, url: items[id].url })
     LisaaKoriin(product);
   }

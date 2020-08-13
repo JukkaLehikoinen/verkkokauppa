@@ -8,13 +8,14 @@ import DialogTitle from '@material-ui/core/DialogTitle';
 
 export default function AddCustomer(props) {
   const [open, setOpen] = React.useState(false);
-  const [asiakas, setAsiakas] = React.useState({ nimi: '', osoite: '', puhelin: '', email: '' })
+  const [asiakas, setAsiakas] = React.useState({ nimi: '', osoite: '', puhelin: '', email: '',ostoskori: props.ostoskori,kokonaissumma:props.summa })
   const [alv, setAlv] = React.useState(0);
   const [veroton, setVeroton] = React.useState(0);
 
   const handleClickOpen = () => {
     setAlv(props.summa * 0.24)
     setVeroton(props.summa - (props.summa * 0.24))
+    setAsiakas({ ...asiakas, kokonaissumma: props.summa });
     setOpen(true);
   }
 
