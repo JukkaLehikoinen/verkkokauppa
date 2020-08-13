@@ -4,9 +4,10 @@
 
 .Kauppaan {
 
+  text-align: center;
   position: fixed;
   top: 10%;
-  right: 50%;
+  left: 25%;
   padding-left: 20px;
   padding-right: 20px;
   font-size: 30px;
