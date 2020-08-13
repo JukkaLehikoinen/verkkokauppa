@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/verkkokauppa/static/css/main.1ac1f63f.chunk.css",
+    "main.css": "/verkkokauppa/static/css/main.5072c9b3.chunk.css",
     "main.js": "/verkkokauppa/static/js/main.176b31d0.chunk.js",
     "main.js.map": "/verkkokauppa/static/js/main.176b31d0.chunk.js.map",
     "runtime-main.js": "/verkkokauppa/static/js/runtime-main.b47acc04.js",
@@ -8,15 +8,15 @@
     "static/js/2.3794533f.chunk.js": "/verkkokauppa/static/js/2.3794533f.chunk.js",
     "static/js/2.3794533f.chunk.js.map": "/verkkokauppa/static/js/2.3794533f.chunk.js.map",
     "index.html": "/verkkokauppa/index.html",
-    "precache-manifest.f83bc6b1646745190a29e58d61e754c2.js": "/verkkokauppa/precache-manifest.f83bc6b1646745190a29e58d61e754c2.js",
+    "precache-manifest.b06865a2fe12ae33c4443dd080c443f3.js": "/verkkokauppa/precache-manifest.b06865a2fe12ae33c4443dd080c443f3.js",
     "service-worker.js": "/verkkokauppa/service-worker.js",
-    "static/css/main.1ac1f63f.chunk.css.map": "/verkkokauppa/static/css/main.1ac1f63f.chunk.css.map",
+    "static/css/main.5072c9b3.chunk.css.map": "/verkkokauppa/static/css/main.5072c9b3.chunk.css.map",
     "static/js/2.3794533f.chunk.js.LICENSE.txt": "/verkkokauppa/static/js/2.3794533f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b47acc04.js",
     "static/js/2.3794533f.chunk.js",
-    "static/css/main.1ac1f63f.chunk.css",
+    "static/css/main.5072c9b3.chunk.css",
     "static/js/main.176b31d0.chunk.js"
   ]
 }
