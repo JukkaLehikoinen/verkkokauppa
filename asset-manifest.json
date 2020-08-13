@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/verkkokauppa/static/css/main.e122d0ca.chunk.css",
-    "main.js": "/verkkokauppa/static/js/main.db8b918b.chunk.js",
-    "main.js.map": "/verkkokauppa/static/js/main.db8b918b.chunk.js.map",
+    "main.css": "/verkkokauppa/static/css/main.2d66a50e.chunk.css",
+    "main.js": "/verkkokauppa/static/js/main.f6ac4bac.chunk.js",
+    "main.js.map": "/verkkokauppa/static/js/main.f6ac4bac.chunk.js.map",
     "runtime-main.js": "/verkkokauppa/static/js/runtime-main.b47acc04.js",
     "runtime-main.js.map": "/verkkokauppa/static/js/runtime-main.b47acc04.js.map",
-    "static/js/2.78192f6d.chunk.js": "/verkkokauppa/static/js/2.78192f6d.chunk.js",
-    "static/js/2.78192f6d.chunk.js.map": "/verkkokauppa/static/js/2.78192f6d.chunk.js.map",
+    "static/js/2.395bdc76.chunk.js": "/verkkokauppa/static/js/2.395bdc76.chunk.js",
+    "static/js/2.395bdc76.chunk.js.map": "/verkkokauppa/static/js/2.395bdc76.chunk.js.map",
     "index.html": "/verkkokauppa/index.html",
-    "precache-manifest.883339fb5edf66d0e4bb7f712c616522.js": "/verkkokauppa/precache-manifest.883339fb5edf66d0e4bb7f712c616522.js",
+    "precache-manifest.139b97954692ff3c5f42e727aae80213.js": "/verkkokauppa/precache-manifest.139b97954692ff3c5f42e727aae80213.js",
     "service-worker.js": "/verkkokauppa/service-worker.js",
-    "static/css/main.e122d0ca.chunk.css.map": "/verkkokauppa/static/css/main.e122d0ca.chunk.css.map",
-    "static/js/2.78192f6d.chunk.js.LICENSE.txt": "/verkkokauppa/static/js/2.78192f6d.chunk.js.LICENSE.txt"
+    "static/css/main.2d66a50e.chunk.css.map": "/verkkokauppa/static/css/main.2d66a50e.chunk.css.map",
+    "static/js/2.395bdc76.chunk.js.LICENSE.txt": "/verkkokauppa/static/js/2.395bdc76.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b47acc04.js",
-    "static/js/2.78192f6d.chunk.js",
-    "static/css/main.e122d0ca.chunk.css",
-    "static/js/main.db8b918b.chunk.js"
+    "static/js/2.395bdc76.chunk.js",
+    "static/css/main.2d66a50e.chunk.css",
+    "static/js/main.f6ac4bac.chunk.js"
   ]
 }
