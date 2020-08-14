@@ -23,7 +23,7 @@ export default function AddCustomer(props) {
     if (asiakas.nimi === '' || asiakas.osoite === '' || asiakas.puhelin === '' || asiakas.email === '') {
       alert('Täytä asiakastiedot')
     } else {
-      alert('Kiitos tilauksestanne')
+      alert('Kiitos tilauksestanne\n\nTässä kohtaa tilaus voitaisiin insertoida/postata tietokantaan\nTässä projektissa sellaista ei ole.')
       setOpen(false);
     }
   }
